@@ -40,6 +40,6 @@ export const about = [
   },
 ];
 
-export const products_url = "http://localhost:8888/.netlify/functions/airtable";
+export const products_url = "https://burningmanstickers.netlify.app";
 
-export const single_product_url = `http://localhost:8888/.netlify/functions/airtable?id=`;
+export const single_product_url = `https://burningmanstickers.netlify.app?id=`;

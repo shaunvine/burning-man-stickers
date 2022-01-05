@@ -4,7 +4,9 @@ import axios from "axios";
 export default function AirtableItems() {
   const fetchProducts = async () => {
     try {
-      const { data } = await axios.get("/.netlify/functions/airtable");
+      const { data } = await axios.get(
+        "https://burningmanstickers.netlify.app/"
+      );
       console.log(data);
     } catch (error) {
       console.log(error.response);

@@ -27,18 +27,6 @@ const Filters = () => {
     <Wrapper>
       <div className="content">
         <form onSubmit={(e) => e.preventDefault()}>
-          {/* start search input */}
-          <div className="form-control">
-            <input
-              type="text"
-              name="text"
-              placeholder="search"
-              className="search-input"
-              value={text}
-              onChange={updateFilters}
-            />
-          </div>
-          {/* end of search input */}
           {/* start clear filters */}
           <button type="button" className="clear-btn" onClick={clearFilters}>
             clear filters
@@ -130,6 +118,18 @@ const Filters = () => {
             />
           </div>
           {/* end of official sticker */}
+          {/* start search input */}
+          <div className="form-control">
+            <input
+              type="text"
+              name="text"
+              placeholder="search"
+              className="search-input"
+              value={text}
+              onChange={updateFilters}
+            />
+          </div>
+          {/* end of search input */}
         </form>
       </div>
     </Wrapper>

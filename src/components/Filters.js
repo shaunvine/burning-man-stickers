@@ -27,11 +27,6 @@ const Filters = () => {
     <Wrapper>
       <div className="content">
         <form onSubmit={(e) => e.preventDefault()}>
-          {/* start clear filters */}
-          <button type="button" className="clear-btn" onClick={clearFilters}>
-            clear filters
-          </button>
-          {/* end clear filters */}
           {/* start year */}
           <div className="form-control">
             <h5>year</h5>
@@ -130,6 +125,11 @@ const Filters = () => {
             />
           </div>
           {/* end of search input */}
+          {/* start clear filters */}
+          <button type="button" className="clear-btn" onClick={clearFilters}>
+            clear filters
+          </button>
+          {/* end clear filters */}
         </form>
       </div>
     </Wrapper>

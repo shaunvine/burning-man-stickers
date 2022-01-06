@@ -229,11 +229,22 @@ const Wrapper = styled.section`
     column-gap: 0.5rem;
     font-size: 1rem;
   }
-  .clear-btn {
-    background: #fb9101;
-    color: var(--clr-white);
-    padding: 0.25rem 0.5rem;
-    border-radius: var(--radius);
+  @media (max-width: 768px) {
+    .clear-btn {
+      background: #fb9101;
+      color: var(--clr-white);
+      padding: 0.5rem 0.5rem;
+      border-radius: var(--radius);
+      width: 50%;
+    }
+  }
+  @media (min-width: 769px) {
+    .clear-btn {
+      background: #fb9101;
+      color: var(--clr-white);
+      padding: 0.5rem 0.5rem;
+      border-radius: var(--radius);
+    }
   }
   @media (min-width: 768px) {
     .content {

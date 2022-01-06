@@ -67,7 +67,7 @@ const Wrapper = styled.article`
     }
   }
 
-  @media only screen and (min-width: 1024px) {
+  @media only screen and (min-width: 1025px) {
     .container:hover img {
       opacity: 0.5;
     }

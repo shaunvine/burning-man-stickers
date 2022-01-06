@@ -175,6 +175,7 @@ const Wrapper = styled.section`
     border-color: transparent;
     padding: 0.25rem;
     text-transform: capitalize;
+    min-width: 82%;
   }
   .shape {
     background: var(--clr-grey-10);
@@ -182,6 +183,7 @@ const Wrapper = styled.section`
     border-color: transparent;
     padding: 0.25rem;
     text-transform: capitalize;
+    min-width: 82%;
   }
   .colors {
     display: flex;
@@ -205,6 +207,15 @@ const Wrapper = styled.section`
       color: var(--clr-white);
     }
   }
+
+  // input#themecamp,
+  // input#artproject,
+  // input#artcar,
+  // input#offical {
+  //   display: inline-block;
+  //   width: 80%;
+  // }
+
   .all-btn {
     display: flex;
     align-items: center;
@@ -229,6 +240,7 @@ const Wrapper = styled.section`
     column-gap: 0.5rem;
     font-size: 1rem;
   }
+
   @media (max-width: 768px) {
     .clear-btn {
       background: #fb9101;
@@ -244,6 +256,7 @@ const Wrapper = styled.section`
       color: var(--clr-white);
       padding: 0.5rem 0.5rem;
       border-radius: var(--radius);
+      min-width: 82%;
     }
   }
   @media (min-width: 768px) {

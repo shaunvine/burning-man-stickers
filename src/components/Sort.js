@@ -76,6 +76,7 @@ const Wrapper = styled.section`
 
   .sticker-number {
     color: red;
+    font-size: 1.25rem;
   }
 
   @media (max-width: 767px) {

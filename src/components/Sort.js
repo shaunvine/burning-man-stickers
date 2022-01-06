@@ -78,6 +78,12 @@ const Wrapper = styled.section`
     color: red;
   }
 
+  @media (max-width: 576px) {
+  .sticker-number {
+    color: red;
+    font-size: 2rem;
+  }
+
   .btn-container {
     display: grid;
     grid-template-columns: 1fr 1fr;

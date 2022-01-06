@@ -33,6 +33,14 @@ const Wrapper = styled.div`
     margin: 1rem auto 4rem;
   }
 
+  @media (max-width: 767px) {
+    .products {
+      display: grid;
+      gap: 0rem;
+      margin: 1rem auto 4rem;
+    }
+  }
+
   .banner p.photo-credit-internal {
     color: red;
   }

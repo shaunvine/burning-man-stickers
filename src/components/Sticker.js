@@ -66,12 +66,16 @@ const Wrapper = styled.article`
       color: var(--clr-white);
     }
   }
-  .container:hover img {
-    opacity: 0.5;
+
+  @media only screen and (min-width: 1024px) {
+    .container:hover img {
+      opacity: 0.5;
+    }
+    .container:hover .link {
+      opacity: 1;
+    }
   }
-  .container:hover .link {
-    opacity: 1;
-  }
+
   footer {
     margin-top: 1rem;
     display: flex;

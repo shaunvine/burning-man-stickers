@@ -94,7 +94,7 @@ function StickerForm() {
           />
 
           <label htmlFor="stickertype">Type of Sticker</label>
-          <select name="Stickertype" id="stickertype" required="">
+          <select name="Stickertype" id="stickertype" required="stickertype">
             <option value="">Make a selection</option>
             <option value="Theme Camp">Theme Camp</option>
             <option value="Art Project">Art Project</option>

@@ -3,7 +3,7 @@ import { useHistory } from "react-router-dom";
 import styled from "styled-components";
 import { useForm, ValidationError } from "@formspree/react";
 
-function ContactForm() {
+function StickerForm() {
   const history = useHistory();
   const [state, handleSubmit] = useForm("xayazazo");
   if (state.succeeded) {
@@ -92,7 +92,21 @@ function ContactForm() {
             field="stickeryear"
             errors={state.errors}
           />
-          <label htmlFor="themecamp">Theme Camp</label>
+
+          <label htmlFor="stickertype">Type of Sticker</label>
+          <select name="Stickertype" id="stickertype" required="">
+            <option value="">Make a selection</option>
+            <option value="Theme Camp">Theme Camp</option>
+            <option value="Art Project">Art Project</option>
+            <option value="Art Car">Art Car</option>
+          </select>
+          <ValidationError
+            prefix="Sticker Type"
+            field="stickertype"
+            errors={state.errors}
+          />
+
+          <label htmlFor="themecamp">Theme Camp / Art Project / Art Car</label>
           <input
             id="themecamp"
             type="themecamp"
@@ -143,7 +157,7 @@ function ContactForm() {
   );
 }
 function App() {
-  return <ContactForm />;
+  return <StickerForm />;
 }
 
 const Wrapper = styled.section`

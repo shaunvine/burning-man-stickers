@@ -125,7 +125,7 @@ function StickerForm() {
             id="file"
             type="file"
             name="Attachment"
-            accept="image/png, image/jpg, image/jpeg. image/svg, image/gif"
+            accept="image/png, image/jpg, image/jpeg. image/svg, image/gif, image/webp"
             required="*"
           />
           <ValidationError prefix="File" field="file" errors={state.errors} />

@@ -176,6 +176,7 @@ const Wrapper = styled.section`
     padding: 0.25rem;
     text-transform: capitalize;
     min-width: 82%;
+    -webkit-appearance: none;
   }
   .shape {
     background: var(--clr-grey-10);
@@ -184,6 +185,7 @@ const Wrapper = styled.section`
     padding: 0.25rem;
     text-transform: capitalize;
     min-width: 82%;
+    -webkit-appearance: none;
   }
   .colors {
     display: flex;

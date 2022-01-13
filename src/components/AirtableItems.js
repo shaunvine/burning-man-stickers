@@ -5,7 +5,7 @@ export default function AirtableItems() {
   const fetchProducts = async () => {
     try {
       const { data } = await axios.get(
-        "https://burningmanstickers.org/.netlify/functions/airtable"
+        "https://www.burningmanstickers.org/.netlify/functions/airtable"
       );
       console.log(data);
     } catch (error) {

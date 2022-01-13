@@ -4,7 +4,7 @@ const StickerImages = ({ images = [[]] }) => {
   const [main] = useState(images[0]);
   return (
     <Wrapper>
-      <img src={main.url} alt="burning-man-stickers" className="main " />
+      <img src={main.url} alt="burning-man-stickers" className="main" />
       {/* <div className='gallery'>
         {images.map((image, index) => {
           return (

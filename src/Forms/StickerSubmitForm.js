@@ -93,7 +93,9 @@ function StickerForm() {
             errors={state.errors}
           />
 
-          <label htmlFor="stickertype">Type of Sticker</label>
+          <label htmlFor="stickertype">
+            Type of Sticker<sup>*</sup>
+          </label>
           <select name="Stickertype" id="stickertype" required="stickertype">
             <option value="">Make a selection</option>
             <option value="Theme Camp">Theme Camp</option>
@@ -201,8 +203,8 @@ const Wrapper = styled.section`
   form textarea:focus {
     background-color: white;
     outline-style: solid;
-    outline-width: thin;
-    outline-color: gray;
+    outline-width: medium;
+    outline-color: red;
     outline-offset: -1px;
   }
   form [type="text"],

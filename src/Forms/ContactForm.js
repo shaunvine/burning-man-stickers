@@ -119,8 +119,8 @@ const Wrapper = styled.section`
   form textarea:focus {
     background-color: white;
     outline-style: solid;
-    outline-width: thin;
-    outline-color: gray;
+    outline-width: medium;
+    outline-color: red;
     outline-offset: -1px;
   }
   form [type="text"],

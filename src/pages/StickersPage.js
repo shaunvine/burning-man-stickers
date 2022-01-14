@@ -24,7 +24,6 @@ const ProductsPage = () => {
         </div>
       </Wrapper>
       <ScrollButton />
-      <Footer />
     </main>
   );
 };

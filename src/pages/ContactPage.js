@@ -19,12 +19,12 @@ const Contact = () => {
           <h3>Contact Burning Man Stickers</h3>
           <div className="content">
             <ContactForm />
-            <div>
+            {/* <div>
               <div className="underline"></div>
               <Link to="/" className="home-contact btn btn-hero">
                 Home
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </Wrapper>

@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Navbar, Sidebar, Footer } from "./components";
 import ScrollToTop from "./components/ScrollToTop";
+import ScrollButton from "./components/BackToTopButton";
 import {
   Home,
   SubmitSticker,
@@ -43,6 +44,7 @@ function App() {
           <Error />
         </Route>
       </Switch>
+      <ScrollButton />
       <Footer />
     </Router>
   );

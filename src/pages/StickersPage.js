@@ -18,7 +18,6 @@ const ProductsPage = () => {
           <Filters />
           <div>
             <Sort />
-            {/* <AirtableItems/> */}
             <StickerList />
           </div>
         </div>

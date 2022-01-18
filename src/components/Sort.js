@@ -75,7 +75,7 @@ const Wrapper = styled.section`
   }
 
   .sticker-number {
-    color: red;
+    color: #fc6c7c;
     font-size: 1.25rem;
   }
 

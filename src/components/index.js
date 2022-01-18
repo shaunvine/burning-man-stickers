@@ -17,6 +17,8 @@ import AirtableItems from "./AirtableItems";
 import SocialButtons from "./SocialButtons";
 import Sticker from "./Sticker";
 import CountDown from "./CountDown";
+import ScrollToTop from "./ScrollToTop";
+import BackToTopBtn from "./BackToTopBtn";
 export {
   FeaturedProducts,
   Navbar,
@@ -37,4 +39,6 @@ export {
   SocialButtons,
   Sticker,
   CountDown,
+  ScrollToTop,
+  BackToTopBtn,
 };

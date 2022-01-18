@@ -248,8 +248,7 @@ p {
   align-items: flex-end;
 }
 /* End of Hero */
-
-/* Banner */
+/* Start Banner */
 .banner {
   display: inline-block;
   /* background: rgba(0, 0, 0, 0.5); */
@@ -303,3 +302,9 @@ p.photo-credit {
   }
 }
 /* End of Banner */
+/* Start Back to top button */
+.fWohKN {
+  color: #fc6c7c;
+}
+
+/* End Back to top button */

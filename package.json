@@ -16,6 +16,7 @@
     "gatsby-plugin-transition-link": "^1.20.5",
     "netlify": "^6.0.12",
     "react": "^17.0.1",
+    "react-back-to-top-button": "0.0.14",
     "react-dom": "^17.0.1",
     "react-icons": "^3.11.0",
     "react-markdown": "^7.1.1",

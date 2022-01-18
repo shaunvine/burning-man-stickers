@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Filters, StickerList, Sort, PageHero, Hero } from "../components";
 import Banner from "../components/Banner";
-import ScrollButton from "../components/BackToTopButton";
+import App from "../components/BackToTopBtn";
 
 const ProductsPage = () => {
   return (
@@ -23,7 +23,7 @@ const ProductsPage = () => {
           </div>
         </div>
       </Wrapper>
-      <ScrollButton />
+      <App />
     </main>
   );
 };

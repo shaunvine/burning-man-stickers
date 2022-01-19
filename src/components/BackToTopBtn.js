@@ -3,7 +3,7 @@
 import React, { Component } from "react";
 import BackToTop from "react-back-to-top-button";
 import { FaArrowCircleUp } from "react-icons/fa";
-class  BackToTopBtn extends Component {
+class BackToTopBtn extends Component {
   render() {
     return (
       <BackToTop

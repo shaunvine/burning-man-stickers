@@ -3,9 +3,7 @@
 import React, { Component } from "react";
 import BackToTop from "react-back-to-top-button";
 import { FaArrowCircleUp } from "react-icons/fa";
-// import { Button } from "./BackToTopBtnStyles";
-
-class App extends Component {
+class  BackToTopBtn extends Component {
   render() {
     return (
       <BackToTop
@@ -19,4 +17,4 @@ class App extends Component {
     );
   }
 }
-export default App;
+export default BackToTopBtn;

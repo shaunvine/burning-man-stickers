@@ -1,8 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import { Filters, StickerList, Sort, PageHero, Hero } from "../components";
+import { Filters, StickerList, Sort, Hero } from "../components";
 import Banner from "../components/Banner";
-import App from "../components/BackToTopBtn";
 
 const ProductsPage = () => {
   return (
@@ -22,7 +21,6 @@ const ProductsPage = () => {
           </div>
         </div>
       </Wrapper>
-      <App />
     </main>
   );
 };

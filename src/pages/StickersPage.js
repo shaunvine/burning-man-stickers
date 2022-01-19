@@ -11,7 +11,7 @@ const ProductsPage = () => {
           <p className="photo-credit">Photo by: Leori Gill</p>
         </Banner>
       </Hero>
-      <PageHero title="Stickers" />
+      {/* <PageHero title="Stickers" /> */}
       <Wrapper className="page">
         <div className="section-center products">
           <Filters />

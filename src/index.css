@@ -305,6 +305,7 @@ p.photo-credit {
 /* Start Back to top button */
 .fWohKN {
   color: #fc6c7c;
+  bottom: -30px !important;
 }
 
 /* End Back to top button */

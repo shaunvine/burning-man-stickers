@@ -220,7 +220,7 @@ p {
 .contactHero,
 .singleStickerHero {
   min-height: calc(60vh - 66px);
-  background: url("./assets/Photo-by-Leori-Gill-Burning-man-2017.jpeg")
+  background: url("./assets/Photo-by-Leori-Gill-Burning-man-2017.webp")
     center/cover no-repeat;
   display: flex;
   align-items: flex-end;
@@ -228,7 +228,7 @@ p {
   margin-top: -5rem;
 }
 .stickersHero {
-  background-image: url("./assets/Jaguara-art-car-photo-Eleanor-Preger.jpeg");
+  background-image: url("./assets/Jaguara-art-car-photo-Eleanor-Preger.webp");
   min-height: 60vh;
   align-items: flex-end;
 }
@@ -243,7 +243,7 @@ p {
   align-items: flex-end;
 }
 .singleStickerHero {
-  background-image: url("./assets/the-folly.png");
+  background-image: url("./assets/the-folly.webp");
   min-height: 60vh;
   align-items: flex-end;
 }

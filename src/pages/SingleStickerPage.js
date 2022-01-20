@@ -131,7 +131,7 @@ const SingleStickerPage = () => {
                         }}
                         target="_blank"
                       >
-                        Camp Website
+                        Camp Information
                       </Link>
                     </span>
                   )}
@@ -152,7 +152,7 @@ const SingleStickerPage = () => {
                         }}
                         target="_blank"
                       >
-                        Art Project Website
+                        Art Project Information
                       </Link>
                     </span>
                   )}
@@ -173,7 +173,7 @@ const SingleStickerPage = () => {
                         }}
                         target="_blank"
                       >
-                        Art Car Website
+                        Art Car Information
                       </Link>
                     </span>
                   )}

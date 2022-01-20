@@ -22,7 +22,7 @@ const SubmitStickersPage = () => {
           </p>
 
           <p>Acceptable formats are gif, png, jpg, jpeg, svg, and webp.</p>
-          <p>Max file size 25 MB.</p>
+          <p className="max-file-size">Max file size 25 MB.</p>
           <div className="content">
             <StickerSubmitForm />
             {/* <div>
@@ -132,6 +132,10 @@ h3 {
 a.home-contact.btn {
     margin: 0.5rem;
   }
+
+.max-file-size {
+   color: #fc6c7c;
+ } 
 `;
 
 export default SubmitStickersPage;

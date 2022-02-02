@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Navbar, Sidebar, Footer } from "./components";
 import ScrollToTop from "./components/ScrollToTop";
@@ -13,8 +13,15 @@ import {
   About,
   Stickers,
 } from "./pages";
+import ReactGA from "react-ga";
 
 function App() {
+  useEffect(() => {
+    ReactGA.initialize("UA-104854412-2");
+    // To Report Page View
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, []);
+
   return (
     <Router>
       <ScrollToTop />

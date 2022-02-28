@@ -56,6 +56,7 @@ const SingleStickerPage = () => {
     contributor,
     desc,
     camplink,
+    creatorinfo,
     // id: sku,
     image,
   } = product.fields;
@@ -106,13 +107,27 @@ const SingleStickerPage = () => {
 
               {createdby && (
                 <p className="info">
-                  <span>Creator:</span>{" "}
+                  <span>Creator:</span>
                   <span className="sticker-year">{createdby}</span>
+                  {creatorinfo && (
+                    <span className="info">
+                      <span></span>
+                      <Link
+                        to={{
+                          pathname: `${creatorinfo}
+               `,
+                        }}
+                        target="_blank"
+                      >
+                        <span className="creator">Creator Information</span>
+                      </Link>
+                    </span>
+                  )}
                 </p>
               )}
               {contributor && (
                 <p className="info">
-                  <span>Contributor:</span>{" "}
+                  <span>Contributor:</span>
                   <span className="sticker-year">{contributor}</span>
                 </p>
               )}
@@ -187,7 +202,7 @@ const SingleStickerPage = () => {
               )}
               {desc && (
                 <p className="info">
-                  <span>Details:</span>{" "}
+                  <span>Details:</span>
                   <span
                     className="sticker-year"
                     dangerouslySetInnerHTML={{
@@ -223,6 +238,11 @@ const Wrapper = styled.main`
   span.sticker-year {
     color: #696969;
     font-weight: 400 !important;
+  }
+
+  .creator {
+    font-weight: 400!important;
+    color: #FB9107;
   }
 
   .link {

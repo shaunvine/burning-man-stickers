@@ -31,7 +31,7 @@ exports.handler = async (event, context, cb) => {
 
   try {
     const { records } = await airtable.list({
-      maxRecords: 200,
+      maxRecords: 400,
     });
     // console.log(records)
     const stickers = records.map((product) => {

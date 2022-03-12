@@ -107,7 +107,7 @@ const SingleStickerPage = () => {
 
               {createdby && (
                 <p className="info">
-                  <span>Creator:</span>
+                  <span>Creator: </span>
                   <span className="sticker-year">{createdby}</span>
                   {creatorinfo && (
                     <span className="info">
@@ -127,14 +127,14 @@ const SingleStickerPage = () => {
               )}
               {contributor && (
                 <p className="info">
-                  <span>Contributor:</span>
+                  <span>Contributor: </span>
                   <span className="sticker-year">{contributor}</span>
                 </p>
               )}
 
               {themecampname && (
                 <p className="info">
-                  <span>Theme Camp:</span>
+                  <span>Theme Camp: </span>
                   <span className="sticker-year">{themecampname}</span>
                   {camplink && (
                     <span className="info">
@@ -155,7 +155,7 @@ const SingleStickerPage = () => {
 
               {artprojectname && (
                 <p className="info">
-                  <span>Art Project:</span>
+                  <span>Art Project: </span>
                   <span className="sticker-year">{artprojectname}</span>
                   {artprojectlink && (
                     <span className="info">
@@ -176,7 +176,7 @@ const SingleStickerPage = () => {
 
               {artcarname && (
                 <p className="info">
-                  <span>Art Car:</span>
+                  <span>Art Car: </span>
                   <span className="sticker-year">{artcarname}</span>
                   {artcarlink && (
                     <span className="info">
@@ -202,7 +202,7 @@ const SingleStickerPage = () => {
               )}
               {desc && (
                 <p className="info">
-                  <span>Details:</span>
+                  <span>Details: </span>
                   <span
                     className="sticker-year"
                     dangerouslySetInnerHTML={{
@@ -226,11 +226,13 @@ const SingleStickerPage = () => {
 };
 
 const Wrapper = styled.main`
-  .product-center {
+@media screen and (min-width: 992px) {  
+.product-center {
     display: grid;
     gap: 4rem;
     margin-top: 2rem;
   }
+}
   .year {
     color: var(--clr-primary-5);
   }
@@ -270,10 +272,12 @@ const Wrapper = styled.main`
     margin-top: 1rem;
   }
 
-  @media (min-width: 992px) {
+  @media screen and (min-width: 992px) {
     .product-center {
       grid-template-columns: 1fr 1fr;
       align-items: center;
+    }
+
     }
     .price {
       font-size: 1.25rem;
@@ -287,19 +291,10 @@ const Wrapper = styled.main`
       span {
         font-weight: 700;
       }
-  }
+  
 
-@media (max-width: 992px) {
-    .info {
-      text-transform: capitalize;
-      width: 350px;
-      display: grid;
-      grid-template-columns: 150px 1fr;
-      color: var(--clr-primary-5);
-      span {
-        font-weight: 700;
-      }
-  }
+  // Had to move the media query @media screen and (max-width: 991px) to index.css becuase could not get the media query to work in stlyed components. Not sure why. SDV 03/11/2021.
+
 `;
 
 export default SingleStickerPage;

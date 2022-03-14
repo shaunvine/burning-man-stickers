@@ -301,6 +301,13 @@ p.photo-credit {
     font-size: 4rem;
   }
 }
+
+/* For small phones */
+@media screen and (max-width: 575px) {
+  .banner {
+    margin-top: 2.5rem;
+  }
+}
 /* End of Banner */
 /* Start Back to top button */
 .fWohKN {

@@ -26,7 +26,9 @@ const Sort = () => {
           <BsList />
         </button> */}
       </div>
-      <p className="sticker-number">{products.length} stickers found</p>
+      <p className="sticker-number">
+        {products.length} sticker{products.length > 1 && "s"} found
+      </p>
       <hr />
       <form>
         <label htmlFor="sort">sort by:</label>

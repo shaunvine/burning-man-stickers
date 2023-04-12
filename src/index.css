@@ -220,7 +220,7 @@ p {
 .contactHero,
 .singleStickerHero {
   min-height: calc(60vh - 66px);
-  background-image: url("./assets/Mark-Nixon.webp") center/cover no-repeat;
+  background: url("./assets/Mark-Nixon.webp") center/cover no-repeat;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -237,7 +237,7 @@ p {
   align-items: flex-end;
 }
 .contactHero {
-  background: url("./assets/Leori-Gill.webp");
+  background-image: url("./assets/Leori-Gill.webp");
   min-height: 60vh;
   align-items: flex-end;
 }

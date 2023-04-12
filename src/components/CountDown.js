@@ -58,7 +58,7 @@ const CountDown = () => {
     <Wrapper>
       {hideClock ? (
         <div>
-          <h3 className="timer-heading">Next year was better</h3>
+          <h3 className="timer-heading">Fuck your burn</h3>
         </div>
       ) : (
         <div className="clock-container">

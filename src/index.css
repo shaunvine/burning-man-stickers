@@ -238,7 +238,7 @@ p {
   align-items: flex-end;
 }
 .contactHero {
-  background: url("./assets/Photo-by-Leori-Gill-Burning-man-2017.webp")
+  background: url("./assets/Photo-by-Leori-Gill-Burning-man-2017.webp");
   min-height: 60vh;
   align-items: flex-end;
 }

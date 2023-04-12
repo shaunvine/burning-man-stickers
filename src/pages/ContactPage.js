@@ -42,13 +42,13 @@ const Wrapper = styled.section`
     color: #fb9101;
   }
 
-h3 {
-      font-weight: 300;
+  h3 {
+    font-weight: 300;
   }
 
   h4.contact-confirm {
-      color: #fb9101;
-      font-weight: 200;
+    color: #fb9101;
+    font-weight: 200;
   }
 
   .contact-form {
@@ -109,21 +109,21 @@ h3 {
   // }
 
   .home-contact {
-    display: grid
+    display: grid;
     grid-template-columns: 40% auto;
   }
 
   .underline {
-  width: 100%;
-  height: 0.125rem;
-  background: #49a6e9;
-  background: var(--clr-primary-5);
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1rem;
-}
+    width: 100%;
+    height: 0.125rem;
+    background: #49a6e9;
+    background: var(--clr-primary-5);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+  }
 
-a.home-contact.btn {
+  a.home-contact.btn {
     margin: 0.5rem;
   }
 `;

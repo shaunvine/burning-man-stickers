@@ -9,8 +9,8 @@ const Contact = () => {
   return (
     <main>
       <Hero hero="contactHero">
-        <Banner title="The Myan Warrior">
-          <p className="photo-credit">Photo by: Mark Nixon</p>
+        <Banner title="The Man">
+          <p className="photo-credit">Photo by: Leori Gill</p>
         </Banner>
       </Hero>
       <PageHero title="Contact" />

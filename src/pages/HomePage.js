@@ -6,11 +6,14 @@ export default function home() {
   return (
     <>
       <Hero>
-        <Banner title="Burning Man Stickers" subtitle="A Catalog of BRC Stickers">
+        <Banner
+          title="Burning Man Stickers"
+          subtitle="A Catalog of BRC Stickers"
+        >
           {/* <Link to="/submit" className="btn btn-hero">
             submit a sticker
           </Link> */}
-          <p className="photo-credit">Photo by: Leori Gill</p>
+          <p className="photo-credit">Photo By: Mark Nixon</p>
         </Banner>
       </Hero>
       <main>

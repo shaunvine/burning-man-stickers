@@ -11,7 +11,7 @@ const CountDown = () => {
   const [seconds, setSeconds] = useState(0);
 
   useEffect(() => {
-    const target = new Date("09/03/2022 21:00:00");
+    const target = new Date("09/02/2023 21:00:00");
 
     const interval = setInterval(() => {
       const now = new Date();
@@ -98,7 +98,7 @@ const Wrapper = styled.section`
   .clock-container {
     border: solid 1px white;
     border-radius: 3px;
-    padding: .25rem;
+    padding: 0.25rem;
   }
 
   .timer-heading {
@@ -112,7 +112,7 @@ const Wrapper = styled.section`
   }
 
   .timer-wrapper {
-    padding: .25rem;
+    padding: 0.25rem;
   }
 
   .timer-inner {
@@ -130,7 +130,7 @@ const Wrapper = styled.section`
   }
 
   .divider {
-    padding: 0 .75rem;
+    padding: 0 0.75rem;
   }
 
   .timer-segment {

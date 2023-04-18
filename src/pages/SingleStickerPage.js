@@ -204,7 +204,7 @@ const SingleStickerPage = () => {
                 <p className="info">
                   <span>Details: </span>
                   <span
-                    className="sticker-year"
+                    className="sticker-details"
                     dangerouslySetInnerHTML={{
                       __html: createHTML(product.fields["desc"]),
                     }}
@@ -226,13 +226,13 @@ const SingleStickerPage = () => {
 };
 
 const Wrapper = styled.main`
-@media screen and (min-width: 992px) {  
-.product-center {
-    display: grid;
-    gap: 4rem;
-    margin-top: 2rem;
+  @media screen and (min-width: 992px) {
+    .product-center {
+      display: grid;
+      gap: 4rem;
+      margin-top: 2rem;
+    }
   }
-}
   .year {
     color: var(--clr-primary-5);
   }
@@ -243,8 +243,8 @@ const Wrapper = styled.main`
   }
 
   .creator {
-    font-weight: 400!important;
-    color: #FB9107;
+    font-weight: 400 !important;
+    color: #fb9107;
   }
 
   .link {
@@ -277,24 +277,27 @@ const Wrapper = styled.main`
       grid-template-columns: 1fr 1fr;
       align-items: center;
     }
+  }
+  .price {
+    font-size: 1.25rem;
+  }
+  .info {
+    text-transform: capitalize;
+    /* width: 450px; */
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    color: var(--clr-primary-5);
+    span {
+      font-weight: 700;
+    }
+  }
 
-    }
-    .price {
-      font-size: 1.25rem;
-    }
-    .info {
-      text-transform: capitalize;
-      width: 450px;
-      display: grid;
-      grid-template-columns: 150px 1fr;
-      color: var(--clr-primary-5);
-      span {
-        font-weight: 700;
-      }
-  
+  .sticker-details p {
+    color: #696969;
+    font-weight: 400 !important;
+  }
 
   // Had to move the media query @media screen and (max-width: 991px) to index.css becuase could not get the media query to work in stlyed components. Not sure why. SDV 03/11/2021.
-
 `;
 
 export default SingleStickerPage;
